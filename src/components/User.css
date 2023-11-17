@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  border-bottom: 1px solid gray;
+  /* width: 800px; */
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+  height: 2rem;
+}
+
+.list span {
+  margin: 2rem;
+}
+
+.list span button {
+  width: 3.5rem;
+  height: 1.5rem;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.list span button:active {
+  transform: scale(1.1);
+}
